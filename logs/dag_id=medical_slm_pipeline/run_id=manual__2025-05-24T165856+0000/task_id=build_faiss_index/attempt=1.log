@@ -1,0 +1,20 @@
+[2025-05-24T17:01:10.138+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-24T17:01:10.175+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: medical_slm_pipeline.build_faiss_index manual__2025-05-24T16:58:56+00:00 [queued]>
+[2025-05-24T17:01:10.186+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: medical_slm_pipeline.build_faiss_index manual__2025-05-24T16:58:56+00:00 [queued]>
+[2025-05-24T17:01:10.188+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-05-24T17:01:10.208+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): build_faiss_index> on 2025-05-24 16:58:56+00:00
+[2025-05-24T17:01:10.229+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=378) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-05-24T17:01:10.231+0000] {standard_task_runner.py:63} INFO - Started process 393 to run task
+[2025-05-24T17:01:10.228+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'medical_slm_pipeline', 'build_faiss_index', 'manual__2025-05-24T16:58:56+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/tempCodeRunnerFile.py', '--cfg-path', '/tmp/tmpy6f_153c']
+[2025-05-24T17:01:10.234+0000] {standard_task_runner.py:91} INFO - Job 19: Subtask build_faiss_index
+[2025-05-24T17:01:10.257+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-05-24T17:01:10.306+0000] {task_command.py:426} INFO - Running <TaskInstance: medical_slm_pipeline.build_faiss_index manual__2025-05-24T16:58:56+00:00 [running]> on host 52e8eca6c6d7
+[2025-05-24T17:01:10.415+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='medical_slm_pipeline' AIRFLOW_CTX_TASK_ID='build_faiss_index' AIRFLOW_CTX_EXECUTION_DATE='2025-05-24T16:58:56+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-24T16:58:56+00:00'
+[2025-05-24T17:01:10.417+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-24T17:01:10.538+0000] {tempCodeRunnerFile.py:67} INFO - Saved FAISS index to /opt/***/data/faiss.index
+[2025-05-24T17:01:10.541+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-05-24T17:01:10.543+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-24T17:01:10.556+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=medical_slm_pipeline, task_id=build_faiss_index, run_id=manual__2025-05-24T16:58:56+00:00, execution_date=20250524T165856, start_date=20250524T170110, end_date=20250524T170110
+[2025-05-24T17:01:10.608+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-05-24T17:01:10.624+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-24T17:01:10.626+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
