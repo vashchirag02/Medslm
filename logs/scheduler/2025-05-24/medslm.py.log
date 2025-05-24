@@ -6290,3 +6290,73 @@ SyntaxError: invalid syntax
 [2025-05-24T17:32:32.085+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:32:32.084+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-05-24T17:32:32.095+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:32:32.095+0000] {dag.py:3954} INFO - Setting next_dagrun for medical_slm_pipeline to None, run_after=None
 [2025-05-24T17:32:32.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/medslm.py took 5.811 seconds
+[2025-05-24T17:33:02.546+0000] {processor.py:161} INFO - Started process (PID=1766) to work on /opt/airflow/dags/medslm.py
+[2025-05-24T17:33:02.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/medslm.py for tasks to queue
+[2025-05-24T17:33:02.557+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:02.554+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/medslm.py
+[2025-05-24T17:33:02.612+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:02.612+0000] {loader.py:125} INFO - Loading faiss with AVX2 support.
+[2025-05-24T17:33:02.670+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:02.670+0000] {loader.py:127} INFO - Successfully loaded faiss with AVX2 support.
+[2025-05-24T17:33:02.687+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:02.687+0000] {__init__.py:174} INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-24T17:33:11.329+0000] {processor.py:840} INFO - DAG(s) 'medical_slm_pipeline' retrieved from /opt/airflow/dags/medslm.py
+[2025-05-24T17:33:11.465+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:11.465+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-24T17:33:11.497+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:11.497+0000] {dag.py:3954} INFO - Setting next_dagrun for medical_slm_pipeline to None, run_after=None
+[2025-05-24T17:33:11.547+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/medslm.py took 9.012 seconds
+[2025-05-24T17:33:42.199+0000] {processor.py:161} INFO - Started process (PID=1792) to work on /opt/airflow/dags/medslm.py
+[2025-05-24T17:33:42.203+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/medslm.py for tasks to queue
+[2025-05-24T17:33:42.210+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:42.209+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/medslm.py
+[2025-05-24T17:33:42.321+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:42.321+0000] {loader.py:125} INFO - Loading faiss with AVX2 support.
+[2025-05-24T17:33:42.377+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:42.376+0000] {loader.py:127} INFO - Successfully loaded faiss with AVX2 support.
+[2025-05-24T17:33:42.392+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:42.392+0000] {__init__.py:174} INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-24T17:33:51.547+0000] {processor.py:840} INFO - DAG(s) 'medical_slm_pipeline' retrieved from /opt/airflow/dags/medslm.py
+[2025-05-24T17:33:51.583+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:51.583+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-24T17:33:51.598+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:51.598+0000] {dag.py:3954} INFO - Setting next_dagrun for medical_slm_pipeline to None, run_after=None
+[2025-05-24T17:33:51.632+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/medslm.py took 9.445 seconds
+[2025-05-24T17:34:22.012+0000] {processor.py:161} INFO - Started process (PID=1818) to work on /opt/airflow/dags/medslm.py
+[2025-05-24T17:34:22.013+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/medslm.py for tasks to queue
+[2025-05-24T17:34:22.015+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:22.015+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/medslm.py
+[2025-05-24T17:34:22.035+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:22.034+0000] {loader.py:125} INFO - Loading faiss with AVX2 support.
+[2025-05-24T17:34:22.063+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:22.063+0000] {loader.py:127} INFO - Successfully loaded faiss with AVX2 support.
+[2025-05-24T17:34:22.070+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:22.070+0000] {__init__.py:174} INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-24T17:34:27.213+0000] {processor.py:840} INFO - DAG(s) 'medical_slm_pipeline' retrieved from /opt/airflow/dags/medslm.py
+[2025-05-24T17:34:27.325+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:27.324+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-24T17:34:27.333+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:27.333+0000] {dag.py:3954} INFO - Setting next_dagrun for medical_slm_pipeline to None, run_after=None
+[2025-05-24T17:34:27.433+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/medslm.py took 5.427 seconds
+[2025-05-24T17:34:57.779+0000] {processor.py:161} INFO - Started process (PID=1844) to work on /opt/airflow/dags/medslm.py
+[2025-05-24T17:34:57.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/medslm.py for tasks to queue
+[2025-05-24T17:34:57.783+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:57.783+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/medslm.py
+[2025-05-24T17:34:57.803+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:57.803+0000] {loader.py:125} INFO - Loading faiss with AVX2 support.
+[2025-05-24T17:34:57.830+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:57.829+0000] {loader.py:127} INFO - Successfully loaded faiss with AVX2 support.
+[2025-05-24T17:34:57.835+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:57.835+0000] {__init__.py:174} INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-24T17:35:03.012+0000] {processor.py:840} INFO - DAG(s) 'medical_slm_pipeline' retrieved from /opt/airflow/dags/medslm.py
+[2025-05-24T17:35:03.034+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:35:03.033+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-24T17:35:03.051+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:35:03.051+0000] {dag.py:3954} INFO - Setting next_dagrun for medical_slm_pipeline to None, run_after=None
+[2025-05-24T17:35:03.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/medslm.py took 5.310 seconds
+[2025-05-24T17:35:33.502+0000] {processor.py:161} INFO - Started process (PID=1870) to work on /opt/airflow/dags/medslm.py
+[2025-05-24T17:35:33.503+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/medslm.py for tasks to queue
+[2025-05-24T17:35:33.505+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:35:33.504+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/medslm.py
+[2025-05-24T17:35:33.528+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:35:33.527+0000] {loader.py:125} INFO - Loading faiss with AVX2 support.
+[2025-05-24T17:35:33.561+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:35:33.560+0000] {loader.py:127} INFO - Successfully loaded faiss with AVX2 support.
+[2025-05-24T17:35:33.569+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:35:33.568+0000] {__init__.py:174} INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-24T17:35:39.085+0000] {processor.py:840} INFO - DAG(s) 'medical_slm_pipeline' retrieved from /opt/airflow/dags/medslm.py
+[2025-05-24T17:35:39.217+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:35:39.216+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-24T17:35:39.233+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:35:39.232+0000] {dag.py:3954} INFO - Setting next_dagrun for medical_slm_pipeline to None, run_after=None
+[2025-05-24T17:35:39.270+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/medslm.py took 5.774 seconds
+[2025-05-24T17:36:09.586+0000] {processor.py:161} INFO - Started process (PID=1896) to work on /opt/airflow/dags/medslm.py
+[2025-05-24T17:36:09.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/medslm.py for tasks to queue
+[2025-05-24T17:36:09.589+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:09.589+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/medslm.py
+[2025-05-24T17:36:09.611+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:09.611+0000] {loader.py:125} INFO - Loading faiss with AVX2 support.
+[2025-05-24T17:36:09.637+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:09.637+0000] {loader.py:127} INFO - Successfully loaded faiss with AVX2 support.
+[2025-05-24T17:36:09.645+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:09.645+0000] {__init__.py:174} INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-24T17:36:15.236+0000] {processor.py:840} INFO - DAG(s) 'medical_slm_pipeline' retrieved from /opt/airflow/dags/medslm.py
+[2025-05-24T17:36:15.266+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:15.266+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-24T17:36:15.278+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:15.278+0000] {dag.py:3954} INFO - Setting next_dagrun for medical_slm_pipeline to None, run_after=None
+[2025-05-24T17:36:15.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/medslm.py took 5.724 seconds
+[2025-05-24T17:36:45.728+0000] {processor.py:161} INFO - Started process (PID=1922) to work on /opt/airflow/dags/medslm.py
+[2025-05-24T17:36:45.730+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/medslm.py for tasks to queue
+[2025-05-24T17:36:45.732+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:45.731+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/medslm.py
+[2025-05-24T17:36:45.756+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:45.756+0000] {loader.py:125} INFO - Loading faiss with AVX2 support.
+[2025-05-24T17:36:45.785+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:45.785+0000] {loader.py:127} INFO - Successfully loaded faiss with AVX2 support.
+[2025-05-24T17:36:45.793+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:45.792+0000] {__init__.py:174} INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-24T17:36:51.389+0000] {processor.py:840} INFO - DAG(s) 'medical_slm_pipeline' retrieved from /opt/airflow/dags/medslm.py
+[2025-05-24T17:36:51.495+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:51.494+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-24T17:36:51.504+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:51.504+0000] {dag.py:3954} INFO - Setting next_dagrun for medical_slm_pipeline to None, run_after=None
+[2025-05-24T17:36:51.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/medslm.py took 5.807 seconds

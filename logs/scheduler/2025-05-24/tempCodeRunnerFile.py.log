@@ -1004,3 +1004,73 @@
 [2025-05-24T17:32:32.115+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:32:32.114+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-05-24T17:32:32.126+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:32:32.126+0000] {dag.py:3954} INFO - Setting next_dagrun for medical_slm_pipeline to None, run_after=None
 [2025-05-24T17:32:32.149+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tempCodeRunnerFile.py took 5.830 seconds
+[2025-05-24T17:33:02.575+0000] {processor.py:161} INFO - Started process (PID=1769) to work on /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:33:02.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tempCodeRunnerFile.py for tasks to queue
+[2025-05-24T17:33:02.583+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:02.582+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:33:02.650+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:02.649+0000] {loader.py:125} INFO - Loading faiss with AVX2 support.
+[2025-05-24T17:33:02.719+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:02.719+0000] {loader.py:127} INFO - Successfully loaded faiss with AVX2 support.
+[2025-05-24T17:33:02.734+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:02.733+0000] {__init__.py:174} INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-24T17:33:11.381+0000] {processor.py:840} INFO - DAG(s) 'medical_slm_pipeline' retrieved from /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:33:11.414+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:11.414+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-24T17:33:11.431+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:11.430+0000] {dag.py:3954} INFO - Setting next_dagrun for medical_slm_pipeline to None, run_after=None
+[2025-05-24T17:33:11.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tempCodeRunnerFile.py took 8.899 seconds
+[2025-05-24T17:33:42.235+0000] {processor.py:161} INFO - Started process (PID=1795) to work on /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:33:42.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tempCodeRunnerFile.py for tasks to queue
+[2025-05-24T17:33:42.243+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:42.242+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:33:42.359+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:42.359+0000] {loader.py:125} INFO - Loading faiss with AVX2 support.
+[2025-05-24T17:33:42.411+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:42.411+0000] {loader.py:127} INFO - Successfully loaded faiss with AVX2 support.
+[2025-05-24T17:33:42.428+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:42.427+0000] {__init__.py:174} INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-24T17:33:51.662+0000] {processor.py:840} INFO - DAG(s) 'medical_slm_pipeline' retrieved from /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:33:51.773+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:51.772+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-24T17:33:51.785+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:33:51.785+0000] {dag.py:3954} INFO - Setting next_dagrun for medical_slm_pipeline to None, run_after=None
+[2025-05-24T17:33:51.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tempCodeRunnerFile.py took 9.583 seconds
+[2025-05-24T17:34:22.022+0000] {processor.py:161} INFO - Started process (PID=1821) to work on /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:34:22.023+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tempCodeRunnerFile.py for tasks to queue
+[2025-05-24T17:34:22.026+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:22.025+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:34:22.049+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:22.048+0000] {loader.py:125} INFO - Loading faiss with AVX2 support.
+[2025-05-24T17:34:22.078+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:22.078+0000] {loader.py:127} INFO - Successfully loaded faiss with AVX2 support.
+[2025-05-24T17:34:22.085+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:22.085+0000] {__init__.py:174} INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-24T17:34:27.198+0000] {processor.py:840} INFO - DAG(s) 'medical_slm_pipeline' retrieved from /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:34:27.237+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:27.236+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-24T17:34:27.253+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:27.253+0000] {dag.py:3954} INFO - Setting next_dagrun for medical_slm_pipeline to None, run_after=None
+[2025-05-24T17:34:27.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tempCodeRunnerFile.py took 5.260 seconds
+[2025-05-24T17:34:57.788+0000] {processor.py:161} INFO - Started process (PID=1847) to work on /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:34:57.790+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tempCodeRunnerFile.py for tasks to queue
+[2025-05-24T17:34:57.792+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:57.791+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:34:57.811+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:57.810+0000] {loader.py:125} INFO - Loading faiss with AVX2 support.
+[2025-05-24T17:34:57.836+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:57.836+0000] {loader.py:127} INFO - Successfully loaded faiss with AVX2 support.
+[2025-05-24T17:34:57.841+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:34:57.841+0000] {__init__.py:174} INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-24T17:35:03.013+0000] {processor.py:840} INFO - DAG(s) 'medical_slm_pipeline' retrieved from /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:35:03.108+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:35:03.107+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-24T17:35:03.118+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:35:03.118+0000] {dag.py:3954} INFO - Setting next_dagrun for medical_slm_pipeline to None, run_after=None
+[2025-05-24T17:35:03.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tempCodeRunnerFile.py took 5.353 seconds
+[2025-05-24T17:35:33.510+0000] {processor.py:161} INFO - Started process (PID=1873) to work on /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:35:33.513+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tempCodeRunnerFile.py for tasks to queue
+[2025-05-24T17:35:33.515+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:35:33.514+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:35:33.539+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:35:33.538+0000] {loader.py:125} INFO - Loading faiss with AVX2 support.
+[2025-05-24T17:35:33.570+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:35:33.570+0000] {loader.py:127} INFO - Successfully loaded faiss with AVX2 support.
+[2025-05-24T17:35:33.577+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:35:33.576+0000] {__init__.py:174} INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-24T17:35:39.078+0000] {processor.py:840} INFO - DAG(s) 'medical_slm_pipeline' retrieved from /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:35:39.107+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:35:39.107+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-24T17:35:39.119+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:35:39.118+0000] {dag.py:3954} INFO - Setting next_dagrun for medical_slm_pipeline to None, run_after=None
+[2025-05-24T17:35:39.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tempCodeRunnerFile.py took 5.648 seconds
+[2025-05-24T17:36:09.592+0000] {processor.py:161} INFO - Started process (PID=1899) to work on /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:36:09.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tempCodeRunnerFile.py for tasks to queue
+[2025-05-24T17:36:09.595+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:09.595+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:36:09.613+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:09.613+0000] {loader.py:125} INFO - Loading faiss with AVX2 support.
+[2025-05-24T17:36:09.637+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:09.637+0000] {loader.py:127} INFO - Successfully loaded faiss with AVX2 support.
+[2025-05-24T17:36:09.644+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:09.643+0000] {__init__.py:174} INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-24T17:36:15.192+0000] {processor.py:840} INFO - DAG(s) 'medical_slm_pipeline' retrieved from /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:36:15.305+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:15.305+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-24T17:36:15.316+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:15.316+0000] {dag.py:3954} INFO - Setting next_dagrun for medical_slm_pipeline to None, run_after=None
+[2025-05-24T17:36:15.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tempCodeRunnerFile.py took 5.755 seconds
+[2025-05-24T17:36:45.741+0000] {processor.py:161} INFO - Started process (PID=1925) to work on /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:36:45.742+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tempCodeRunnerFile.py for tasks to queue
+[2025-05-24T17:36:45.745+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:45.744+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:36:45.767+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:45.767+0000] {loader.py:125} INFO - Loading faiss with AVX2 support.
+[2025-05-24T17:36:45.794+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:45.794+0000] {loader.py:127} INFO - Successfully loaded faiss with AVX2 support.
+[2025-05-24T17:36:45.802+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:45.802+0000] {__init__.py:174} INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-24T17:36:51.410+0000] {processor.py:840} INFO - DAG(s) 'medical_slm_pipeline' retrieved from /opt/airflow/dags/tempCodeRunnerFile.py
+[2025-05-24T17:36:51.436+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:51.436+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-24T17:36:51.449+0000] {logging_mixin.py:188} INFO - [2025-05-24T17:36:51.449+0000] {dag.py:3954} INFO - Setting next_dagrun for medical_slm_pipeline to None, run_after=None
+[2025-05-24T17:36:51.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tempCodeRunnerFile.py took 5.740 seconds
