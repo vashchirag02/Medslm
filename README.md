@@ -111,11 +111,6 @@ Pull requests and ideas are welcome! For major changes, please open an issue fir
 
 ---
 
-## 📜 License
-
-[MIT](LICENSE)
-
----
 
 ## 🙋‍♂️ Maintainer
 
