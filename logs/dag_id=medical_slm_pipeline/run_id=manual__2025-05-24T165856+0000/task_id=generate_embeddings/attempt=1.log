@@ -1,40 +1,0 @@
-[2025-05-24T16:59:17.960+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
-[2025-05-24T16:59:18.012+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: medical_slm_pipeline.generate_embeddings manual__2025-05-24T16:58:56+00:00 [queued]>
-[2025-05-24T16:59:18.024+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: medical_slm_pipeline.generate_embeddings manual__2025-05-24T16:58:56+00:00 [queued]>
-[2025-05-24T16:59:18.025+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
-[2025-05-24T16:59:18.044+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): generate_embeddings> on 2025-05-24 16:58:56+00:00
-[2025-05-24T16:59:18.072+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'medical_slm_pipeline', 'generate_embeddings', 'manual__2025-05-24T16:58:56+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/medslm.py', '--cfg-path', '/tmp/tmp2yjlvols']
-[2025-05-24T16:59:18.075+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=262) is multi-threaded, use of fork() may lead to deadlocks in the child.
-[2025-05-24T16:59:18.082+0000] {standard_task_runner.py:91} INFO - Job 18: Subtask generate_embeddings
-[2025-05-24T16:59:18.083+0000] {standard_task_runner.py:63} INFO - Started process 293 to run task
-[2025-05-24T16:59:18.166+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
-[2025-05-24T16:59:18.376+0000] {task_command.py:426} INFO - Running <TaskInstance: medical_slm_pipeline.generate_embeddings manual__2025-05-24T16:58:56+00:00 [running]> on host 52e8eca6c6d7
-[2025-05-24T16:59:18.695+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='medical_slm_pipeline' AIRFLOW_CTX_TASK_ID='generate_embeddings' AIRFLOW_CTX_EXECUTION_DATE='2025-05-24T16:58:56+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-24T16:58:56+00:00'
-[2025-05-24T16:59:18.697+0000] {taskinstance.py:430} INFO - ::endgroup::
-[2025-05-24T16:59:18.742+0000] {SentenceTransformer.py:211} INFO - Use pytorch device_name: cpu
-[2025-05-24T16:59:18.747+0000] {SentenceTransformer.py:219} INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
-[2025-05-24T17:00:59.632+0000] {logging_mixin.py:188} WARNING - Batches:   0%|          | 0/79 [00:00<?, ?it/s]
-[2025-05-24T17:00:59.743+0000] {logging_mixin.py:188} WARNING - Batches:   1%|1         | 1/79 [00:00<00:08,  9.12it/s]
-[2025-05-24T17:00:59.855+0000] {logging_mixin.py:188} WARNING - Batches:   8%|7         | 6/79 [00:00<00:02, 30.30it/s]
-[2025-05-24T17:00:59.963+0000] {logging_mixin.py:188} WARNING - Batches:  14%|#3        | 11/79 [00:00<00:01, 37.47it/s]
-[2025-05-24T17:01:00.079+0000] {logging_mixin.py:188} WARNING - Batches:  20%|##        | 16/79 [00:00<00:01, 39.82it/s]
-[2025-05-24T17:01:00.189+0000] {logging_mixin.py:188} WARNING - Batches:  27%|##6       | 21/79 [00:00<00:01, 41.74it/s]
-[2025-05-24T17:01:00.301+0000] {logging_mixin.py:188} WARNING - Batches:  33%|###2      | 26/79 [00:00<00:01, 42.78it/s]
-[2025-05-24T17:01:00.415+0000] {logging_mixin.py:188} WARNING - Batches:  41%|####      | 32/79 [00:00<00:01, 46.00it/s]
-[2025-05-24T17:01:00.531+0000] {logging_mixin.py:188} WARNING - Batches:  48%|####8     | 38/79 [00:00<00:00, 47.88it/s]
-[2025-05-24T17:01:00.638+0000] {logging_mixin.py:188} WARNING - Batches:  54%|#####4    | 43/79 [00:01<00:00, 47.48it/s]
-[2025-05-24T17:01:00.750+0000] {logging_mixin.py:188} WARNING - Batches:  61%|######    | 48/79 [00:01<00:00, 46.65it/s]
-[2025-05-24T17:01:00.867+0000] {logging_mixin.py:188} WARNING - Batches:  67%|######7   | 53/79 [00:01<00:00, 45.47it/s]
-[2025-05-24T17:01:00.988+0000] {logging_mixin.py:188} WARNING - Batches:  75%|#######4  | 59/79 [00:01<00:00, 46.74it/s]
-[2025-05-24T17:01:01.099+0000] {logging_mixin.py:188} WARNING - Batches:  81%|########1 | 64/79 [00:01<00:00, 46.26it/s]
-[2025-05-24T17:01:01.206+0000] {logging_mixin.py:188} WARNING - Batches:  87%|########7 | 69/79 [00:01<00:00, 46.33it/s]
-[2025-05-24T17:01:01.334+0000] {logging_mixin.py:188} WARNING - Batches:  94%|#########3| 74/79 [00:01<00:00, 44.00it/s]
-[2025-05-24T17:01:01.437+0000] {logging_mixin.py:188} WARNING - Batches: 100%|##########| 79/79 [00:01<00:00, 45.22it/s]
-[2025-05-24T17:01:01.438+0000] {logging_mixin.py:188} WARNING - Batches: 100%|##########| 79/79 [00:01<00:00, 43.78it/s]
-[2025-05-24T17:01:01.497+0000] {medslm.py:66} INFO - Generated embeddings for 2500 documents.
-[2025-05-24T17:01:01.499+0000] {python.py:237} INFO - Done. Returned value was: None
-[2025-05-24T17:01:01.500+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
-[2025-05-24T17:01:01.511+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=medical_slm_pipeline, task_id=generate_embeddings, run_id=manual__2025-05-24T16:58:56+00:00, execution_date=20250524T165856, start_date=20250524T165918, end_date=20250524T170101
-[2025-05-24T17:01:01.551+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
-[2025-05-24T17:01:01.572+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
-[2025-05-24T17:01:01.574+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
